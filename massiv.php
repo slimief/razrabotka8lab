@@ -32,17 +32,17 @@ echo $sum;
 </head>
 <body>
     <form method="post">
-<input type="text" name="n1"/>
-    <input type="text" name="n2"/>
-    <input type="text" name="n3"/><br>
+<input type="text" name="n1" required/>
+    <input type="text" name="n2" required/>
+    <input type="text" name="n3" required/><br>
 
-    <input type="text" name="n4"/>
-    <input type="text" name="n5"/>
-    <input type="text" name="n6"/><br>
+    <input type="text" name="n4" required/>
+    <input type="text" name="n5" required/>
+    <input type="text" name="n6" required/><br>
 
-    <input type="text" name="n7"/>
-    <input type="text" name="n8"/>
-    <input type="text" name="n9"/>
+    <input type="text" name="n7" required/>
+    <input type="text" name="n8" required/>
+    <input type="text" name="n9" required/>
     <button type="submit" name="login1" value="login1">Авторизация</button>
 </form>
     
